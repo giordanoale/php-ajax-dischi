@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__ . "/databse.php";
+include __DIR__ . "/database.php";
 
 header('Content-Type: application/json');
 

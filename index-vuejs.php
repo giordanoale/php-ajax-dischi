@@ -33,8 +33,6 @@
             <!-- intestazione -->
            <header>
                 <img class="logo" src="img/logo.png" alt="Spotify logo">
-
-                
            </header>
            <!-- /intestazione -->
 
@@ -43,8 +41,7 @@
                <div class="container">
 
                     <!-- card -->
-                    <div v-for="album in albums" class="card" 
-                    v-if="album.show == true">
+                    <div v-for="album in dischi" class="card">
                         <img class="album-cover" :src="album.poster" :alt="album.title">
                         <h2 class="album-title">{{ album.title}}</h2>
                         <p>{{ album.author }}</p>
